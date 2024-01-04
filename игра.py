@@ -179,10 +179,10 @@ canvas = tkinter.Canvas(master, bg='green',
                         width=step * N_X, height=step * N_Y)
 canvas.pack()
 
-player_pic = tkinter.PhotoImage(file="images/player.gif")
-exit_pic = tkinter.PhotoImage(file="images/princess.gif")
-fire_pic = tkinter.PhotoImage(file="images/fire.gif")
-enemy_pic = tkinter.PhotoImage(file="images/villain.gif")
+player_pic = tkinter.PhotoImage(file="player.gif")
+exit_pic = tkinter.PhotoImage(file="princess.gif")
+fire_pic = tkinter.PhotoImage(file="fire.gif")
+enemy_pic = tkinter.PhotoImage(file="villain.gif")
 
 restart = tkinter.Button(master, text="Начать заново",
                          command=prepare_and_start)
